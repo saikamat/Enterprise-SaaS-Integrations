@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+saas_venv/
+env/
+*.pyc
+__pycache__/
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+*.py[cod]
+*$py.class
+dist/
+build/
+*.egg-info/
