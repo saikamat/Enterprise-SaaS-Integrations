@@ -16,3 +16,14 @@ try:
     SLACK_BOT_TOKEN = os.environ['SLACK_BOT_TOKEN']
 except KeyError:
     raise ValueError("SLACK_BOT_TOKEN not found in environment variables. Did you create a .env file?")
+
+# get the google API token token
+try:
+    GOOGLE_CLIENT_ID = os.environ['GOOGLE_CLIENT_ID']
+except KeyError:
+    raise ValueError("GOOGLE_CLIENT_ID not found in environment variables. Did you create a .env file?")
+
+try:
+    GOOGLE_CLIENT_SECRET = os.environ['GOOGLE_CLIENT_SECRET']
+except KeyError:
+    raise ValueError("GOOGLE_CLIENT_SECRET not found in environment variables. Did you create a .env file?")
